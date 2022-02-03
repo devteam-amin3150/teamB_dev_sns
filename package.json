@@ -1,0 +1,43 @@
+{
+  "name": "test_yarn",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "gulpfile.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "browser-sync": "^2.27.7",
+    "css-mqpacker": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^2.0.9",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^9.0.0",
+    "postcss-cssnext": "^3.1.1",
+    "sass": "^1.49.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "popper.js": "^1.16.1"
+  },
+  "scripts": {
+    "clean": "rimraf dist/**/*",
+    "start": "gulp",
+    "build": "npm run clean && gulp build"
+
+  }
+}
