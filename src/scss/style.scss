@@ -1,0 +1,30 @@
+// ==============================
+// 変数
+// ==============================
+$font-color_default: #666;
+// TODO:リファクタ必要
+$color_corp: #EB7C31;
+$sub_color1: #35c6ff;
+
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+
+$font-family_corp: 'Noto Sans JP',
+sans-serif;
+
+
+@import 'foundation/reset';
+@import 'foundation/_base';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
