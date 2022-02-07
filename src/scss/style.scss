@@ -28,3 +28,34 @@ sans-serif;
 @import 'foundation/reset';
 @import 'foundation/_base';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+    background-color: #EB7C31;
+    color: white;
+}
+.home_image{
+    background-color: antiquewhite;
+    float: left;
+    width: 100%;
+}
+.home_title{
+    margin: 20% 25px;
+}
+.sub_title{
+    margin: 30% 40px auto;
+}
+.btn-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start; /* ADD */
+    margin: 1% 25px;
+  }
+  .loginbtn{
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius:50px;
+  }
+  .text-center{
+      text-align: center;
+  }
